@@ -22,13 +22,41 @@ $TTL    604800
 233        IN      PTR     api.ocp4.vcenterlocalhost.com.
 233        IN      PTR     api-int.ocp4.vcenterlocalhost.com.
 
+;ocp records for cluster2
+202        IN      PTR     api.2ocp4.vcenterlocalhost.com.
+202        IN      PTR     api-int.2ocp4.vcenterlocalhost.com.
+
+;ocp records for cluster3
+229        IN      PTR     api.3ocp4.vcenterlocalhost.com.
+229        IN      PTR     api-int.3ocp4.vcenterlocalhost.com.
+
+;ocp assisted records
+
+;233        IN      PTR     api.assistedocp.vcenterlocalhost.com.
+;233        IN      PTR     api-int.assistedocp.vcenterlocalhost.com.
+
 ;ocp machine records
 
-239.40.27.172.in-addr.arpa.       IN      PTR     bootstrap.ocp4.vcenterlocalhost.com.
-240       IN      PTR     master0.ocp4.vcenterlocalhost.com.
-241       IN      PTR     master1.ocp4.vcenterlocalhost.com.
-242       IN      PTR     master2.ocp4.vcenterlocalhost.com.
+221.40.27.172.in-addr.arpa.       IN      PTR     bootstrap.ocp4.vcenterlocalhost.com.
+222       IN      PTR     master0.ocp4.vcenterlocalhost.com.
+223       IN      PTR     master1.ocp4.vcenterlocalhost.com.
+224       IN      PTR     master2.ocp4.vcenterlocalhost.com.
 245       IN      PTR     worker0.ocp4.vcenterlocalhost.com.
 246       IN      PTR     worker1.ocp4.vcenterlocalhost.com.
 247       IN      PTR     worker2.ocp4.vcenterlocalhost.com.
 248       IN      PTR     worker3.ocp4.vcenterlocalhost.com.
+249       IN      PTR     worker4.ocp4.vcenterlocalhost.com.
+238       IN      PTR     worker5.ocp4.vcenterlocalhost.com.
+237       IN      PTR     worker6.ocp4.vcenterlocalhost.com.
+
+;231       IN      PTR     master.assistedocp.vcenterlocalhost.com.
+
+225.40.27.172.in-addr.arpa.       IN      PTR     2bootstrap.2ocp4.vcenterlocalhost.com.
+226       IN      PTR     2master0.2ocp4.vcenterlocalhost.com.
+227       IN      PTR     2master1.2ocp4.vcenterlocalhost.com.
+228       IN      PTR     2master2.2ocp4.vcenterlocalhost.com.
+
+190.40.27.172.in-addr.arpa.       IN      PTR     3bootstrap.3ocp4.vcenterlocalhost.com.
+191       IN      PTR     3master0.3ocp4.vcenterlocalhost.com.
+192       IN      PTR     3master1.3ocp4.vcenterlocalhost.com.
+193       IN      PTR     3master2.3ocp4.vcenterlocalhost.com.
